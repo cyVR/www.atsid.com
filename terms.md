@@ -1,8 +1,9 @@
 ---
-layout: default
 title: Terms and Conditions
-permalink: /terms/
+permalink: "/terms/"
+layout: default
 ---
+
 <article class="hero hero__content--short">
     <div class="hero__content hero__content--short">
         <h2 class="hero__title">Terms and Conditions</h2>

@@ -1,7 +1,7 @@
 ---
-layout: page
 title: Federal Contract Vehicles
-permalink: /federal.contact.vehicles/
+permalink: "/federal.contact.vehicles/"
+layout: page
 byline: ATS Federal Contracts
 ---
 

@@ -1,39 +1,42 @@
-# Site settings
-
+---
 title: Applied Technical Systems
+timezone: UTC
+collections:
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
 description: Applied Technical Systems
-baseurl: /www.atsid.com
+baseurl: "/www.atsid.com"
 url: https://www.atsid.com
 gems:
-  - jekyll-redirect-from
-
-# Build settings
+- jekyll-redirect-from
 markdown: kramdown
-
 nav:
-  - title: About
-    url: /about/
-  - title: Capabilities
-    url: /capabilities/
-  - title: Careers
-    url: /careers/
-  - title: Contact
-    url: /contact/
-
+- title: About
+  url: "/about/"
+- title: Capabilities
+  url: "/capabilities/"
+- title: Careers
+  url: "/careers/"
+- title: Contact
+  url: "/contact/"
 locations:
-  - name: Silverdale - Bayshore (HQ)
-    addressLine1: 9307 Bayshore Drive NW
-    addressLine2: Silverdale, WA 98383
-    phone: 360.989.3349
-    fax: 360.989.3387
-    email: ats.silverdale@atsid.com
-    photo: ../assets/images/location-bayshore.png
-    link: https://www.google.com/maps/place/9307%20Bayshore%20Drive%20NW%20Silverdale,%20WA%2098383
-  - name: Alexandria - Jamieson
-    addressLine1: 2051 Jamieson Ave, Suite 502
-    addressLine2: Alexandria, VA 22314
-    phone: 703.546.4920
-    fax: 757.483.5997
-    email: ats.alexandria@atsid.com
-    photo: ../assets/images/location-jamieson.png
-    link: https://www.google.com/maps/place/2051%20Jamieson%20Ave,%20Suite%20502%20Alexandria,%20VA%2022314
+- name: Silverdale - Bayshore (HQ)
+  addressLine1: 9307 Bayshore Drive NW
+  addressLine2: Silverdale, WA 98383
+  phone: 360.989.3349
+  fax: 360.989.3387
+  email: ats.silverdale@atsid.com
+  photo: "../assets/images/location-bayshore.png"
+  link: https://www.google.com/maps/place/9307%20Bayshore%20Drive%20NW%20Silverdale,%20WA%2098383
+- name: Alexandria - Jamieson
+  addressLine1: 2051 Jamieson Ave, Suite 502
+  addressLine2: Alexandria, VA 22314
+  phone: 703.546.4920
+  fax: 757.483.5997
+  email: ats.alexandria@atsid.com
+  photo: "../assets/images/location-jamieson.png"
+  link: https://www.google.com/maps/place/2051%20Jamieson%20Ave,%20Suite%20502%20Alexandria,%20VA%2022314

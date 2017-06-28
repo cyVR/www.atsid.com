@@ -1,15 +1,15 @@
 ---
-layout: default
 title: Capabilities
-permalink: /capabilities/
+permalink: "/capabilities/"
+layout: default
 redirect_from:
-  - /solutions/
-  - /solutions/case-studies
-  - /solutions/case-study/data-analytics-intelligence-community.html
-  - /solutions/case-study/maintenance-support-us-navy.html
-  - /solutions/case-study/uspto-patents-end-end.html
-
+- "/solutions/"
+- "/solutions/case-studies"
+- "/solutions/case-study/data-analytics-intelligence-community.html"
+- "/solutions/case-study/maintenance-support-us-navy.html"
+- "/solutions/case-study/uspto-patents-end-end.html"
 ---
+
 <article class="hero hero--capabilities">
     <div class="hero__content hero__content--short">
         <h2 class="hero__title">What does ATS do?</h2>
